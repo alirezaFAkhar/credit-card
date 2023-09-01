@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-img">
+          <div class="img">
+            <div class="item-img">
+              <img src="./assets/image/chip.png" class="chip-img" alt="chip" />
+              <img src="./assets/image/visa.png" class="visa-img" alt="" />
+            </div>
+            <div class="number">
+              <span class="num1"></span>
+              <span class="num2"></span>
+              <span class="num3"></span>
+              <span class="num4"></span>
+            </div>
+            <div class="row3">
+              <div class="col1">
+                <p>Card Holder</p>
+                <h4 id="cardholder"></h4>
+              </div>
+              <div class="col2">
+                <p>Expires</p>
+                <div class="expires">
+                  <h4 id="expiresm">MM</h4>
+                  <span class="dash">/</span>
+                  <h4 id="expiresy">YY</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item-card">
+          <label for="">card number</label>
+          <div class="input">
+            <input class="input1" type="number" />
+            <input class="input2" type="number" />
+            <input class="input3" type="number" />
+            <input class="input4" type="number" />
+          </div>
+        </div>
+        <div class="card-holder">
+          <label for="">card holder</label>
+          <div class="input-item">
+            <input class="name-holder" type="text" />
+          </div>
+        </div>
+        <div class="item-row3">
+          <div class="item-col1">
+            <div class="input-row1">
+              <label for="">EXPIRATION DATE</label>
+              <div class="input-col1">
+                <input class="input-m" type="number" />
+                <input class="input-y" type="number" />
+              </div>
+            </div>
+            <div class="item-row2">
+              <label for="">CCV</label>
+              <div class="input-col1">
+                <input class="input-ccv" type="number" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="submit" type="button">Submit</button>
+      </div>
+    </div>
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>
